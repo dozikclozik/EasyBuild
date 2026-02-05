@@ -490,6 +490,42 @@ function ui.getUI()
     ItemPlaceHolder.MaxVisibleGraphemes = -1
     ItemPlaceHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
     ItemPlaceHolder.Name = "ItemPlaceHolder"
+	      local ImageLabel = Instance.new("ImageLabel")
+      ImageLabel.Parent = ItemPlaceHolder
+      ImageLabel.LayoutOrder = 0
+      ImageLabel.Active = false
+      ImageLabel.Interactable = true
+      ImageLabel.SizeConstraint = Enum.SizeConstraint.RelativeXY
+      ImageLabel.ZIndex = 2
+      ImageLabel.BorderSizePixel = 0
+      ImageLabel.SliceCenter = Rect.new(0, 0, 0, 0)
+      ImageLabel.Draggable = false
+      ImageLabel.ScaleType = Enum.ScaleType.Stretch
+      ImageLabel.Transparency = 0.5
+      ImageLabel.SelectionOrder = 0
+      ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+      ImageLabel.ImageTransparency = 0
+      ImageLabel.Selectable = false
+      ImageLabel.AnchorPoint = Vector2.new(0, 0)
+      ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+      ImageLabel.TileSize = UDim2.new(1, 0, 1, 0)
+      ImageLabel.BorderColor = BrickColor.new("Really black")
+      ImageLabel.ImageContent = Content.fromUri("rbxasset://textures/ui/GuiImagePlaceholder.png")
+      ImageLabel.AutomaticSize = Enum.AutomaticSize.None
+      ImageLabel.Size = UDim2.new(0.28021979331970215, 0, 1, 0)
+      ImageLabel.ClipsDescendants = false
+      ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+      ImageLabel.Visible = true
+      ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
+      ImageLabel.BorderMode = Enum.BorderMode.Outline
+      ImageLabel.Rotation = 0
+      ImageLabel.ImageRectOffset = Vector2.new(0, 0)
+      ImageLabel.BackgroundTransparency = 0.5
+      ImageLabel.Position = UDim2.new(0, 0, 0, 0)
+      ImageLabel.SliceScale = 1
+      ImageLabel.ImageRectSize = Vector2.new(0, 0)
+      ImageLabel.ResampleMode = Enum.ResamplerMode.Default
+      ImageLabel.Name = "ImageLabel"
 	return EasyBuildUI, BrickImage, Title, CloseCircle, TeamScroll,  TextButton, PlaceHolder, BlocksPlacedLabel, Alert, BlocksScroll, ItemPlaceHolder
 end
 
