@@ -200,7 +200,7 @@ function ui.getUI()
 	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 	UIListLayout.Name = "UIListLayout"
 	UIListLayout.Wraps = false
-	UIListLayout.Padding = UDim.new(0.009999999776482582, 0)
+	UIListLayout.Padding = UDim.new(0.0009999999776482582, 0)
 	UIListLayout.ItemLineAlignment = Enum.ItemLineAlignment.Automatic
 	UIListLayout.VerticalFlex = Enum.UIFlexAlignment.None
 	local TextButton = Instance.new("TextButton")
