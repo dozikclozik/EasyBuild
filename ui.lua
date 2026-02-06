@@ -446,7 +446,7 @@ function ui.getUI()
       UIListLayout.Padding = UDim.new(0.009999999776482582, 0)
       UIListLayout.ItemLineAlignment = Enum.ItemLineAlignment.Automatic
       UIListLayout.VerticalFlex = Enum.UIFlexAlignment.None
-    local ItemPlaceHolder = Instance.new("TextLabel")
+     local ItemPlaceHolder = Instance.new("TextLabel")
     ItemPlaceHolder.Parent = BrickImage
     ItemPlaceHolder.LayoutOrder = 0
     ItemPlaceHolder.FontSize = Enum.FontSize.Size14
@@ -471,9 +471,9 @@ function ui.getUI()
     ItemPlaceHolder.AnchorPoint = Vector2.new(0, 0)
     ItemPlaceHolder.BorderColor = BrickColor.new("Really black")
     ItemPlaceHolder.Visible = false
-    ItemPlaceHolder.TextXAlignment = Enum.TextXAlignment.Center
+    ItemPlaceHolder.TextXAlignment = Enum.TextXAlignment.Right
     ItemPlaceHolder.AutomaticSize = Enum.AutomaticSize.None
-    ItemPlaceHolder.Size = UDim2.new(0.9999999403953552, 0, 0.05000000074505806, 0)
+    ItemPlaceHolder.Size = UDim2.new(0.9999999403953552, 0, 0.004999999888241291, 0)
     ItemPlaceHolder.TextWrapped = true
     ItemPlaceHolder.TextWrap = true
     ItemPlaceHolder.TextTransparency = 0
@@ -490,7 +490,7 @@ function ui.getUI()
     ItemPlaceHolder.MaxVisibleGraphemes = -1
     ItemPlaceHolder.TextColor3 = Color3.fromRGB(0, 0, 0)
     ItemPlaceHolder.Name = "ItemPlaceHolder"
-	      local ImageLabel = Instance.new("ImageLabel")
+      local ImageLabel = Instance.new("ImageLabel")
       ImageLabel.Parent = ItemPlaceHolder
       ImageLabel.LayoutOrder = 0
       ImageLabel.Active = false
@@ -512,7 +512,7 @@ function ui.getUI()
       ImageLabel.BorderColor = BrickColor.new("Really black")
       ImageLabel.ImageContent = Content.fromUri("rbxasset://textures/ui/GuiImagePlaceholder.png")
       ImageLabel.AutomaticSize = Enum.AutomaticSize.None
-      ImageLabel.Size = UDim2.new(0.28021979331970215, 0, 1, 0)
+      ImageLabel.Size = UDim2.new(0.32967033982276917, 0, 1, 0)
       ImageLabel.ClipsDescendants = false
       ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
       ImageLabel.Visible = true
