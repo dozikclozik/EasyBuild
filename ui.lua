@@ -400,7 +400,7 @@ function ui.getUI()
     BlocksScroll.SizeConstraint = Enum.SizeConstraint.RelativeXY
     BlocksScroll.ZIndex = 1
     BlocksScroll.BorderSizePixel = 5
-    BlocksScroll.CanvasSize = UDim2.new(0, 0, 2, 0)
+    BlocksScroll.CanvasSize = UDim2.new(0, 0, 25, 0)
     BlocksScroll.Draggable = false
     BlocksScroll.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
     BlocksScroll.CanvasPosition = Vector2.new(0, 0)
